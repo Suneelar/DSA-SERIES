@@ -1,15 +1,5 @@
 import java.util.*;
 public class PrintDuplicates {
-
-    public static boolean containsDuplicates(String[] arr) {
-    Set<String> set = new HashSet<>();
-    for (String s : arr) {
-        if (!set.add(s)) {
-            return true; // Duplicate found
-        }
-    }
-    return false; // No duplicates
-}
  public static void main(String[] args) {
     String str="hi hi this this is java";
     String s[]=str.split(" ");
